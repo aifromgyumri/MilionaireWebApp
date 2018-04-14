@@ -10,9 +10,10 @@ using System;
 namespace MilionaireWebApp.Migrations
 {
     [DbContext(typeof(RestApiDbContext))]
-    partial class RestApiDbContextModelSnapshot : ModelSnapshot
+    [Migration("20180414104052_InitialMigration")]
+    partial class InitialMigration
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

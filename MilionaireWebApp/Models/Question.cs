@@ -15,5 +15,6 @@ namespace MilionaireWebApp.Models
         public string WrongAnswer2 { get; set; }
 
         public string WrongAnswer3 { get; set; }
+
     }
 }

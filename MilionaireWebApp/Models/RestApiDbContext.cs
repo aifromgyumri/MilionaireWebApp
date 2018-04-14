@@ -12,6 +12,12 @@ namespace MilionaireWebApp.Models
         {
             optionsBuilder.UseSqlite("Data Source=Databases\\questions.db");
         }
+        
+
         public DbSet<QuestionModel> Questions { get; set; }
+
+        public DbSet<User> Users { get; set; }
+
+        public DbSet<AnsweredQuestions> AnsweredQuestions { get; set; }
     }
 }
